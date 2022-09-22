@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/GREY">>
+    <Button
+        android:id="@+id/registerUser"
+        android:layout_width="309dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#0ED6B9"
+        android:onClick="createAcount"
+        android:text="Register User"
+        android:textColor="#FFFFFF"
+        android:background="@color/GREY69"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/FullName"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="348dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:textColorHint="#C3B74E"
+        android:textColor="#C3B74E"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="284dp"
+        android:ems="10"
+        android:hint="Age"
+        android:textColorHint="#C3B74E"
+        android:textColor="#C3B74E"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="216dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="#C3B74E"
+        android:textColor="#C3B74E"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="140dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#C3B74E"
+        android:textColor="#C3B74E"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Fitness101"
+        android:textColor="#C3B74E"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/FullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="101dp"
+        android:layout_height="93dp"
+        android:indeterminateTint="#0ED6B9"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "271301596598",
+    "firebase_url": "https://mscapp-555be-default-rtdb.firebaseio.com",
+    "project_id": "mscapp-555be",
+    "storage_bucket": "mscapp-555be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271301596598:android:a9448d9cc1f89775829d17",
+        "android_client_info": {
+          "package_name": "com.example.mscapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271301596598-q2dlftq28lm66iiiff2hu1jv88v78lfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Kk_1Z5jxOPuPIfAFfbM_uAvy5BZjrw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271301596598-q2dlftq28lm66iiiff2hu1jv88v78lfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

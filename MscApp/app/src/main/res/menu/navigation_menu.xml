@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_account_circle_24">
+
+    </item>
+
+    <item
+        android:id="@+id/page1"
+        android:title="Maps"
+        android:icon="@drawable/ic_baseline_map_24">
+
+    </item>
+
+    <item
+        android:id="@+id/page2"
+        android:title="Diary"
+        android:icon="@drawable/ic_baseline_book_24">
+
+    </item>
+
+    <item
+        android:id="@+id/page3"
+        android:title="BMI"
+        android:icon="@drawable/ic_baseline_fitness_center_24">
+
+    </item>
+
+    <item
+        android:id="@+id/page4"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24">
+
+    </item>
+
+    <item
+        android:id="@+id/page5"
+        android:title="Steps"
+        android:icon="@drawable/ic_baseline_directions_run_24">
+
+    </item>
+</menu>
